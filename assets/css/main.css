@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, input, textarea {
+    font-family: "Roboto", serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* CABEÇALHO */
+
+header {
+    font-family: "Bungee Spice", sans-serif;
+    padding: 16px 0;
+    background-color: rgb(13, 77, 18);
+    color: aliceblue;
+}
+
+header h1 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: aliceblue;
+    padding: 12px;
+    text-decoration: none;
+}
+header nav li a:hover{
+    background-color: rgb(31, 133, 39)
+}
+
+
+/* SEÇÕES */
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2,
+section h3 {
+    font-family:"Bungee Spice", sans-serif;
+    font-weight: normal;
+    margin-bottom: 16px;
+    color:  rgb(13, 77, 18);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+/* SOBRE */
+
+#about .container .shop-photo {
+    margin-right: 32px;
+    width: 50%;
+
+}
+
+#about .container .shop-photo img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+#about .container .shop-text {
+    width: 50%;
+}
+
+.brands-list {
+    text-align: center;
+}
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+.brands-list img{
+    height: 23px;
+}
+
+#about .container > div p:nth-last-child(2) {
+    margin-bottom: 50px;
+}
+
+/* PRODUTOS */
+
+#products .container {
+    display: block;
+    text-align: center;
+    
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+
+.product-list .product{
+    width: 18%;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    margin: 10px;
+}
+
+.product-list .product .product-img {
+    display: flex;
+    height: 300px;
+    width: auto;
+    margin-bottom: 12px;
+}
+.product-list .product .product-img img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.product-list .product .product-desc{
+    padding: 10px;
+}
+.product-list .product .product-desc:hover{
+    background-color: rgb(235, 217, 199);
+    padding: 10px;
+}
+
+.product-list .product h3 a {
+    font-family: "Bungee", sans-serif;
+    text-decoration: None;
+    color: black;
+    padding: 0 8px;
+}
+.product-list .product h3 a:hover {
+    background-color: rgb(235, 176, 109);
+}
+
+
+.product-list .product .price {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    font-family: "Bungee", sans-serif;
+}
+
+.product-list .product .price img {
+    height: 20px;
+
+}
+
+/* SEÇÃO - CONTATO */
+
+
+#contact .container {
+    display: block;
+    text-align: center;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 350px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: None;
+    height: 100px;
+}
+form button {
+    background-color: rgb(13, 77, 18);
+    color: aliceblue;
+    font-family:"Bungee Spice", sans-serif;
+    font-weight: normal;
+    margin-bottom: 16px;
+    border: None;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: rgb(31, 133, 39);
+}
+input:focus, textarea:focus {
+    outline-color: rgb(13, 77, 18);
+}
+
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a {
+    text-decoration: none ;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(13, 77, 18);
+    color: aliceblue;
+    padding: 16px 0;
+}
+footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+footer .container img{
+    margin: 0 18px;
+}
+
+#googlefooter{
+    background-color: aliceblue;
+    padding: 8px;
+}
