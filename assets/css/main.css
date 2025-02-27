@@ -30,12 +30,29 @@ header h1 {
     font-weight: normal;
 }
 
+
+header .search {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: auto;
+    margin-left:auto ;
+    margin-right: 20px;
+}
+header .search input {
+    width: 200px;
+}
+header .search input,
+header .search button,
+header .search img{
+    height: 100%;
+}
+
 header nav li {
     display: inline;
     margin-left: 16px;
     font-size: 18px;
 }
-
 header nav li a{
     color: aliceblue;
     padding: 12px;
